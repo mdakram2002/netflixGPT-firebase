@@ -12,6 +12,8 @@
 - Firebase Setup
 - Deploying the our App on firebase server
 - Create Sign Up User Account
+- Implement Sign In user API
+- Create Redux Stor with userSlice
 
 # Features
 - Login/Sign Up
