@@ -1,3 +1,5 @@
+<!-- @format -->
+
 # Netflix React Application
 
 - Create React application
@@ -17,8 +19,22 @@
 - Implemented Sign Out
 - Update Profile
 - Fetch Movies from TMDB Moves
+- BugFix: Sign up user displayName and profile picture update.
+- Bugfix: if the user is not logged in Redirect / Browse to login page and vice-versa.
+- Unsubscribed to the onAuthStateChange callback.
+- Always add hardcoded files and images to the constents and assets files.
+- Resigter TMDB API & Create an application and get access token.
+- Get Data from TMDB now playing movies list API.
+
+- MainContainer
+  - Vedio Background
+  - Vedio Title
+- SecondaryContainer
+  - Movies List * N
+  - cards * N
 
 # Features
+
 - Login/Sign Up
   - Sign In
   - Redirect to Browse Page
@@ -29,7 +45,7 @@
     - Tailer In Background
     - Title & Description
     - Movie Suggestions
-      - Movies List \* N
+      - Movies List * N
 
 - NetflixGPT
   - Search Bar
