@@ -25,6 +25,7 @@
 - Always add hardcoded files and images to the constents and assets files.
 - Resigter TMDB API & Create an application and get access token.
 - Get Data from TMDB now playing movies list API.
+- TMDB data fetch and also building a mainContainer
 
 - MainContainer
   - Vedio Background
