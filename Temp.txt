@@ -1,1 +1,58 @@
+Random Data of Netflix-GPT
 vedio start form: 3:02:42
+
+
+// remove form login and added on Header
+  useEffect(() => {
+        onAuthStateChanged(auth, (user) => {
+            if (user) {
+                const { uid, email, displayName, photoURL } = user;
+                dispatch(addUser({ uid: uid,
+                    email: email,
+                    displayName: displayName,
+                    photoURL: photoURL
+                }));
+                navigate("/browse");
+            } else {
+                // User is signed out
+                dispatch(removeUser());
+                navigate("/")
+            }
+        });
+    }, []);
+
+
+
+
+
+
+
+
+import React from 'react'
+import { useSelector } from 'react-redux';
+import VideoTitle from './VideoTitle';
+import VideoBackground from './VideoBackground';
+
+const MainContainer = () => {
+    const movies = useSelector(store => store.movies?.nowPlayingMovies);
+
+    if(!movies) return; //if the movies is not persent then return null, this is also known as early return.
+
+    const mainMovies = movies[0];
+    console.log(mainMovies);
+
+    return (
+        <div>
+            this is main
+            <VideoTitle/>
+            <VideoBackground/>
+        </div>
+    )
+}
+export default MainContainer;
+
+
+
+
+
+
