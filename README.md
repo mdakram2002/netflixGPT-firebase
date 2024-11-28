@@ -25,6 +25,9 @@
 - Always add hardcoded files and images to the constents and assets files.
 - Resigter TMDB API & Create an application and get access token.
 - Get Data from TMDB now playing movies list API.
+- Building Secondary Container with Multiple Movies List API
+- Create Hookes like useTopRatedMovies, useTopRatedSeries, useTVShow, useUpcomingMovies
+- And Also add MoviesSlice API of above Hooks
 
 - MainContainer
   - Vedio Background
