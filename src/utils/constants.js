@@ -2,7 +2,7 @@ export const USER_AVTAR =
   "https://avatars.githubusercontent.com/u/118426003?v=4";
 
 export const MOVIES_API_KEY =
-  "https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&page=1&sort_by=popularity.desc"
+  "https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc"
 
 export const API_OPTION = {
   method: 'GET',
@@ -12,3 +12,4 @@ export const API_OPTION = {
   }
 };
 
+export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500/";
