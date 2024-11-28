@@ -25,14 +25,6 @@
 - Always add hardcoded files and images to the constents and assets files.
 - Resigter TMDB API & Create an application and get access token.
 - Get Data from TMDB now playing movies list API.
-- Custom Hook for Now Playing Movies
-- Create movieSlice API
-- Update Store with movies Data
-- Planning fro MainContainer & SecondaryContainer
-- Fetch data from Trailer Video
-- Update Store with Trailer Video Data
-- Embedded the YouTube Video an make it autoplay and mute
-- Adding Tailwind  CSS
 
 - MainContainer
   - Vedio Background
