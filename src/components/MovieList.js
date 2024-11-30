@@ -5,7 +5,7 @@ const MovieList = ({ title, movies }) => {
     if (!movies) {
         return <div>Loading...</div>; // Display a loading message if movies are not yet available
     }
-
+ 
     return (
         <div className='px-8'>
             <h2 className='text-2xl py-2 text-white'>{title}</h2>
@@ -21,3 +21,4 @@ const MovieList = ({ title, movies }) => {
 }
 
 export default MovieList;
+

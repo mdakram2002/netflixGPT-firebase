@@ -39,7 +39,6 @@ const Login = () => {
       email.current.value,
       password.current.value
     );
-    console.log(message);
     setErrorMessage(message);
     if (message) return;
 

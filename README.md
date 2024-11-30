@@ -28,6 +28,9 @@
 - Building Secondary Container with Multiple Movies List API
 - Create Hookes like useTopRatedMovies, useTopRatedSeries, useTVShow, useUpcomingMovies
 - And Also add MoviesSlice API of above Hooks
+- Created GPT Search Page
+- GPT Search Bar
+- Added Mul-Languages Features in our Application
 
 - MainContainer
   - Vedio Background

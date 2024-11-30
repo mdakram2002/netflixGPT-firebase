@@ -8,7 +8,6 @@ const useTVShow = () => {
 
         const data = await fetch("https://api.themoviedb.org/3/discover/tv?page=1", API_OPTION);
         const json = await data.json();
-        console.log(json.results);
         dispatch(addTVShow(json.results));
     };
     useEffect(() => {
