@@ -1,6 +1,7 @@
 Random Data of Netflix-GPT
-vedio start form: 3:02:42
 
+vedio start form: 3:02:42
+vedio start from: 3:04:06
 
 // remove form login and added on Header
   useEffect(() => {
@@ -50,9 +51,3 @@ const MainContainer = () => {
     )
 }
 export default MainContainer;
-
-
-
-
-
-
