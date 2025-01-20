@@ -8,10 +8,14 @@ const MainContainers = () => {
 
     if (!movies) return; //if the movies is not persent then return null, this is also known as early return.
 
+<<<<<<< HEAD
     const mainMovies = movies[0];
     // console.log(mainMovies);
     // console.log("i am in MainContainer")
 
+=======
+    const mainMovies = movies[1];
+>>>>>>> 626cd9ab50167197d7078e82ae71325efb3551a7
     const {original_title, overview, id } = mainMovies;
 
     return (

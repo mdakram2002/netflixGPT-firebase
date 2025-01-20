@@ -1,6 +1,12 @@
 Random Data of Netflix-GPT
+<<<<<<< HEAD
 vedio start form: 3:02:42
 
+=======
+
+vedio start form: 3:02:42
+vedio start from: 3:04:06
+>>>>>>> 626cd9ab50167197d7078e82ae71325efb3551a7
 
 // remove form login and added on Header
   useEffect(() => {
@@ -49,6 +55,7 @@ const MainContainer = () => {
         </div>
     )
 }
+<<<<<<< HEAD
 export default MainContainer;
 
 
@@ -56,3 +63,6 @@ export default MainContainer;
 
 
 
+=======
+export default MainContainer;
+>>>>>>> 626cd9ab50167197d7078e82ae71325efb3551a7
