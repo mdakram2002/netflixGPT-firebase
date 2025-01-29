@@ -25,16 +25,14 @@
 - Always add hardcoded files and images to the constents and assets files.
 - Resigter TMDB API & Create an application and get access token.
 - Get Data from TMDB now playing movies list API.
-<<<<<<< HEAD
 - TMDB data fetch and also building a mainContainer
-=======
 - Building Secondary Container with Multiple Movies List API
 - Create Hookes like useTopRatedMovies, useTopRatedSeries, useTVShow, useUpcomingMovies
 - And Also add MoviesSlice API of above Hooks
 - Created GPT Search Page
 - GPT Search Bar
 - Added Mul-Languages Features in our Application
->>>>>>> 626cd9ab50167197d7078e82ae71325efb3551a7
+
 
 - MainContainer
   - Vedio Background
